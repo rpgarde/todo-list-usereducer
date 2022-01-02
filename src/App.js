@@ -11,7 +11,8 @@ function App() {
 
   return (
     <Container>
-      <h1 className = "mt-3">Your basic to-do list with useReducer</h1>
+      <h1 className = "my-3">Your basic to-do list with useReducer</h1>
+      <p>I've found useReducer to be a particularly difficult concept to get my head around, so here's a practice app I did. This was heavily influenced by web dev simplified's useReducer video, but I broke it up into different components, files, and also added react-bootstrap for basic styling.</p>
       <NewTodoForm dispatch={dispatch} setName={setName} name={name} />
       {todos.length>0 && (
         <>
